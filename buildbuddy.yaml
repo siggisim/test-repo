@@ -1,10 +1,10 @@
 actions:
   - name: "Bazel CI - selfhosted"
-      user: "buildbuddy"
-      self_hosted: true
-      triggers:
-        push:
-          branches:
-            - "main"
+    user: "buildbuddy"
+    self_hosted: true
+    triggers:
+      push:
+        branches:
+          - "main"
     bazel_commands:
       - version
