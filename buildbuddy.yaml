@@ -6,3 +6,5 @@ actions:
         push:
           branches:
             - "main"
+    bazel_commands:
+      - version
